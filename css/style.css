@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #272a32;
+  --secondary-color: #ec5242;
+  --neutral-color: #d3d3d3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  color: var(--primary-color);
+}
