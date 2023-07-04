@@ -113,11 +113,29 @@ button {
 
 .main-program {
   color: #fff;
+  position: relative;
+  z-index: 1;
   background: var(--primary-color);
+}
+
+.main-program::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.05;
+  background-image: url(../images/program-bg.jpg);
 }
 
 .section-title {
   text-align: center;
+}
+
+.main-program .section-title {
+  margin-bottom: 2.5rem;
 }
 
 .section-title .separator {
@@ -126,4 +144,46 @@ button {
   height: 2px;
   width: 70px;
   background: var(--secondary-color);
+}
+
+.program-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.program-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff16;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.program-item img {
+  width: 32px;
+  height: 32px;
+}
+
+.program-title {
+  justify-self: start;
+  width: 30%;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.program-item p {
+  width: 60%;
+  line-height: 1.2rem;
+}
+
+.invitation-cta {
+  width: 300px;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: var(--secondary-color);
 }
