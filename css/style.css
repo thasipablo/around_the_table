@@ -81,7 +81,7 @@ button {
 .message {
   padding: 0.8rem 1rem;
   margin: 2rem 0;
-  border: 6px solid #ffffffab;
+  border: 6px solid #ffffff44;
 }
 
 .date-address {
@@ -91,4 +91,25 @@ button {
 .date-address .date {
   font-size: 1.7rem;
   font-weight: 900;
+}
+
+.section {
+  padding: 3rem 1rem;
+}
+
+.main-program {
+  color: #fff;
+  background: var(--primary-color);
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title .separator {
+  display: block;
+  margin: 1.25rem auto;
+  height: 2px;
+  width: 70px;
+  background: var(--secondary-color);
 }
