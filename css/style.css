@@ -54,6 +54,7 @@ button {
   text-transform: uppercase;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
   background-image: url(../images/hero-title-bg.png);
 }
 
