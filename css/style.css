@@ -1,4 +1,5 @@
 :root {
+  --primary-text: #545658;
   --primary-color: #272a32;
   --secondary-color: #ec5242;
   --neutral-color: #d3d3d3;
@@ -12,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
-  color: var(--primary-color);
+  color: var(--primary-text);
 }
 
 main {
@@ -36,26 +37,7 @@ button {
 
 .header {
   padding: 20px;
-}
-
-.hero {
-  padding: 2rem 0;
-}
-
-.hero-title {
-  line-height: 1;
-  font-size: 1.7rem;
-  color: var(--secondary-color);
-}
-
-.hero-title .big {
-  font-size: 3rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: url(../images/hero-title-bg.png);
+  background: var(--neutral-color);
 }
 
 .nav-bar {
@@ -74,4 +56,39 @@ button {
   border-radius: 4px;
   overflow: hidden;
   background-color: var(--primary-color);
+}
+
+.hero {
+  padding: 2rem 0;
+}
+
+.hero-title {
+  line-height: 1;
+  font-size: 1.7rem;
+  color: var(--secondary-color);
+}
+
+.hero-title .big {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url(../images/hero-title-bg.png);
+}
+
+.message {
+  padding: 0.8rem 1rem;
+  margin: 2rem 0;
+  border: 6px solid #ffffffab;
+}
+
+.date-address {
+  font-size: 1.2rem;
+}
+
+.date-address .date {
+  font-size: 1.7rem;
+  font-weight: 900;
 }
