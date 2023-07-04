@@ -14,3 +14,63 @@ body {
   font-family: "Lato", sans-serif;
   color: var(--primary-color);
 }
+
+main {
+  
+}
+
+p, h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 1.8;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.header {
+  padding: 20px;
+}
+
+.hero {
+  padding: 2rem 0;
+}
+
+.hero-title {
+  line-height: 1;
+  font-size: 1.7rem;
+  color: var(--secondary-color);
+}
+
+.hero-title .big {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: url(../images/hero-title-bg.png);
+}
+
+.nav-bar {
+
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hamburger-menu .bar {
+  height: 4px;
+  width: 36px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
