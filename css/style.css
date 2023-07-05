@@ -295,3 +295,41 @@ button {
 .partner .section-title {
   color: #efefef;
 }
+
+.forums-list {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.forum-item {
+  color: #efefef;
+  position: relative;
+  z-index: 1;
+  padding: 2.5rem 0;
+  background-color: var(--secondary-color);
+}
+
+.forum-item .year {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.forum-item .place {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.forum-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom:0;
+  right: 0;
+  left: 0;
+  opacity: 0.2;
+  background-image: url(../images/forum-1.jpg);
+}
