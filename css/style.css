@@ -248,3 +248,15 @@ button {
   margin: 0.45rem;
   background-color: var(--neutral-color);
 }
+
+.more-btn {
+  text-transform: uppercase;
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--neutral-color);
+  border-radius: 4px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
