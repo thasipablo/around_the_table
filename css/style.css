@@ -353,3 +353,12 @@ button {
   height: 75px;
   width: auto;
 }
+
+.footer-about {
+  padding: 2rem 1rem;
+  text-align: left;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
