@@ -333,3 +333,16 @@ button {
   opacity: 0.2;
   background-image: url(../images/forum-1.jpg);
 }
+
+.partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-item {
+  height: 75px;
+  width: auto;
+}
