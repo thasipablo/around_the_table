@@ -16,10 +16,6 @@ body {
   color: var(--primary-text);
 }
 
-main {
-  
-}
-
 p, h1, h2, h3 {
   padding: 0;
   margin: 0;
@@ -286,6 +282,17 @@ button {
 
 .section.forum-logo {
   border-bottom: 1px solid var(--neutral-color);
+}
+
+.winner-logo {
+  padding: 2rem;
+  border: 1px solid var(--neutral-color);
+  width: 90%;
+  margin: 2rem auto 0 auto;
+}
+
+.winner-logo img {
+  width: 60%;
 }
 
 .section.partner {
