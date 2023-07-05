@@ -81,6 +81,9 @@ button {
   font-size: 3rem;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+.hero-title.home .big {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -260,4 +263,35 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* about page */
+.about-page {
+  text-align: center;
+}
+
+.hero-title.about .big{
+  color: var(--secondary-color);
+}
+
+.message.about {
+  background: #fff;
+  border: 1px solid var(--neutral-color);
+}
+
+.contact-us-email {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.section.forum-logo {
+  border-bottom: 1px solid var(--neutral-color);
+}
+
+.section.partner {
+  background-color: var(--primary-color);
+}
+
+.partner .section-title {
+  color: #efefef;
 }
