@@ -219,6 +219,7 @@ button {
 
 .speaker-avatar img {
   width: 90%;
+  max-width: 110px;
   position: absolute;
   top: 8px;
   left: 8px;
