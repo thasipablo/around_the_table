@@ -325,9 +325,9 @@ button {
 }
 
 .forums-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 1rem;
-  flex-direction: column;
 }
 
 .forum-item {
@@ -461,5 +461,27 @@ button {
 
   .more-btn {
     display: none;
+  }
+
+  .forums-list {
+    width: 75%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .last-forums .sub-title {
+    margin: 2rem;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .winner-logo {
+    width: 325px;
+  }
+
+  .footer-about {
+    color: #fff;
+    background-color: var(--primary-color);
   }
 }
