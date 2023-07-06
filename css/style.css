@@ -384,6 +384,10 @@ button {
   justify-content: space-between;
 }
 
+.last-forums .sub-title {
+  margin: 2rem;
+}
+
 @media screen and (min-width: 768px) {
   #brand {
     display: block;
@@ -466,10 +470,6 @@ button {
   .forums-list {
     width: 75%;
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .last-forums .sub-title {
-    margin: 2rem;
   }
 
   .partner {
