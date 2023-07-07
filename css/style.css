@@ -397,8 +397,10 @@ button {
   top: 0;
   left: 0;
   right: 0;
-  background: var(--primary-color);
+  background: #272a32e9;
   padding: 2rem;
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
 }
 
 .mobile-menu {
@@ -407,6 +409,10 @@ button {
   flex-direction: column;
   gap: 2rem;
   padding-top: 2rem;
+}
+
+.hidden {
+  display: none;
 }
 
 .close-menu {
