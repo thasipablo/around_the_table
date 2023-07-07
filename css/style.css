@@ -49,6 +49,10 @@ button {
   margin: 0 auto;
 }
 
+.socials-wrapper {
+  display: none;
+}
+
 .header {
   position: relative;
   z-index: 1;
@@ -430,6 +434,25 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .socials-wrapper {
+    display: block;
+    background-color: var(--primary-color);
+  }
+
+  .socials {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #fff;
+    gap: 0.5rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .socials img {
+    width: 18px;
+  }
+
   #brand {
     display: block;
   }
