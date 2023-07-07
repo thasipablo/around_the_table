@@ -4,7 +4,7 @@
   "description": "<a name=\"readme-top\"></a> # 📗 Table of Contents",
   "main": "index.js",
   "scripts": {
-    "test": "npx hint . && npx stylelint '**/*.{css,scss}' --fix && npx eslint . --fix"
+    "test": "npx hint . -f && npx stylelint '**/*.{css,scss}' --fix && npx eslint . --fix"
   },
   "keywords": [],
   "author": "",

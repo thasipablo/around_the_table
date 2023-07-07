@@ -340,7 +340,7 @@ button {
   position: relative;
   z-index: 1;
   padding: 2.5rem 0;
-  background-color: var(--secondary-color);
+  background-color: #730909;
 }
 
 .forum-item .year {
@@ -516,6 +516,10 @@ button {
 
   .winner-logo {
     width: 325px;
+  }
+
+  .partner.partner-about {
+    display: none;
   }
 
   .footer-about {
