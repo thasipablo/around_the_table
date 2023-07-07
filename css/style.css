@@ -70,7 +70,8 @@ button {
   padding: 2rem;
 }
 
-.nav-bar-items, #brand {
+.nav-bar-items,
+#brand {
   display: none;
 }
 
@@ -490,7 +491,8 @@ button {
     border: 2px solid #efefef;
   }
 
-  .program-title, .program-item p {
+  .program-title,
+  .program-item p {
     width: 100%;
     text-align: center;
   }
