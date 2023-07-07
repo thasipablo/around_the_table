@@ -384,7 +384,7 @@ button {
   height: 40px;
 }
 
-.footer {
+.footer .container {
   padding: 2rem 1rem;
   text-align: left;
   display: flex;
