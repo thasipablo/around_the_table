@@ -12,6 +12,7 @@
     - [Setup](#setup)
     - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -109,6 +110,16 @@ To run tests, run the following command:
 - LinkedIn: [LinkedIn](https://linkedin.com/in/thasipablo)
 
 <!-- CONTRIBUTING -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **Contact form**
+- [ ] **Attendance Enrollement**
+- [ ] **Feedback Mail**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
