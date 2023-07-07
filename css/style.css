@@ -465,7 +465,7 @@ button {
     color: var(--secondary-color);
   }
 
-  .nav-bar-item.active {
+  .nav-bar-item.active a {
     color: var(--secondary-color);
   }
 
