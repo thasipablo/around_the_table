@@ -400,7 +400,7 @@ button {
   background: #272a32e9;
   padding: 2rem;
   backdrop-filter: blur(5px);
-  border-radius: 8px;
+  border-radius: 0 0 8px 8px;
 }
 
 .mobile-menu {
