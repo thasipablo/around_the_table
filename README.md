@@ -64,6 +64,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo](https://thasipablo.github.io/)
+- [Project Presentation](https://www.loom.com/share/9c8c3fb0e89142079f56ed2b4cced833?sid=b3cce94f-89f4-48b2-a73f-aba91c6400d0)
 
 <!-- GETTING STARTED -->
 
