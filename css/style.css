@@ -34,6 +34,10 @@ ul {
   margin: 0;
 }
 
+li {
+  margin: 0;
+}
+
 button {
   outline: 0;
   border: 0;
@@ -386,6 +390,32 @@ button {
 
 .last-forums .sub-title {
   margin: 2rem;
+}
+
+.mobile-menu-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--primary-color);
+  padding: 2rem;
+}
+
+.mobile-menu {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.close-menu {
+  display: flex;
+  justify-content: start;
+}
+
+.mobile-menu .nav-bar-item {
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 768px) {
