@@ -380,7 +380,11 @@ button {
   width: auto;
 }
 
-.footer-about {
+.partner-item.small {
+  height: 40px;
+}
+
+.footer {
   padding: 2rem 1rem;
   text-align: left;
   display: flex;
@@ -510,10 +514,6 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .partner {
-    display: none;
-  }
-
   .winner-logo {
     width: 325px;
   }
@@ -521,5 +521,9 @@ button {
   .footer-about {
     color: #fff;
     background-color: var(--primary-color);
+  }
+  
+  .footer-home {
+    color: var(--primary-color);
   }
 }
