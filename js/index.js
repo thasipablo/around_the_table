@@ -37,60 +37,67 @@ const speakersList = [
   },
 ];
 
-const hamburgerMenuBtn = document.querySelector(".hamburger-menu");
-const closeMobileMenuBtn = document.querySelector(".close-menu");
-const mobileMenu = document.querySelector(".mobile-menu-wrapper");
+const hamburgerMenuBtn = document.querySelector('.hamburger-menu');
+const closeMobileMenuBtn = document.querySelector('.close-menu');
+const mobileMenu = document.querySelector('.mobile-menu-wrapper');
 
 const hideElement = () => {
   mobileMenu.classList.toggle('hidden');
-  console.log('clicked ....');
 };
 
 hamburgerMenuBtn.addEventListener('click', hideElement);
 closeMobileMenuBtn.addEventListener('click', hideElement);
 
-const speakersContainer = document.querySelector('.speakers-list.container');
-
-speakersList.forEach((speaker) => {
-  const speakerCard = document.createElement('div');
-  speakerCard.classList.add('speaker');
-
-  const speakerAvatar = document.createElement('div');
-  speakerAvatar.classList.add('speaker-avatar');
-
-  const avatarBg = document.createElement('div');
-  avatarBg.classList.add('avatar-bg');
-
-  const avatarImage = document.createElement('img');
-  avatarImage.src = speaker.avatar;
-  avatarImage.alt = `${speaker.name} avatar`;
-
-  const aboutSpeaker = document.createElement('div');
-  aboutSpeaker.classList.add('about-speaker');
-
-  const speakerName = document.createElement('h3');
-  speakerName.classList.add('speaker-name');
-  speakerName.textContent = speaker.name;
-
-  const speakerProfile = document.createElement('p');
-  speakerProfile.classList.add('speaker-description', 'speaker-profile');
-  speakerProfile.textContent = speaker.profile;
-
-  const speakerSpeciality = document.createElement('p');
-  speakerSpeciality.classList.add('speaker-description', 'speaker-speciality');
-  speakerSpeciality.textContent = speaker.speciality;
-
-  // Append elements to construct the card structure
-  speakerAvatar.appendChild(avatarBg);
-  speakerAvatar.appendChild(avatarImage);
-
-  aboutSpeaker.appendChild(speakerName);
-  aboutSpeaker.appendChild(speakerProfile);
-  aboutSpeaker.appendChild(speakerSpeciality);
-
-  speakerCard.appendChild(speakerAvatar);
-  speakerCard.appendChild(aboutSpeaker);
-
-  speakersContainer.appendChild(speakerCard);
+const navLinks = document.querySelectorAll('.nav-bar-item');
+navLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.add('hidden');
+  });
 });
 
+const speakersContainer = document.querySelector('.speakers-list.container');
+
+if (speakersContainer) {
+  speakersList.forEach((speaker) => {
+    const speakerCard = document.createElement('div');
+    speakerCard.classList.add('speaker');
+
+    const speakerAvatar = document.createElement('div');
+    speakerAvatar.classList.add('speaker-avatar');
+
+    const avatarBg = document.createElement('div');
+    avatarBg.classList.add('avatar-bg');
+
+    const avatarImage = document.createElement('img');
+    avatarImage.src = speaker.avatar;
+    avatarImage.alt = `${speaker.name} avatar`;
+
+    const aboutSpeaker = document.createElement('div');
+    aboutSpeaker.classList.add('about-speaker');
+
+    const speakerName = document.createElement('h3');
+    speakerName.classList.add('speaker-name');
+    speakerName.textContent = speaker.name;
+
+    const speakerProfile = document.createElement('p');
+    speakerProfile.classList.add('speaker-description', 'speaker-profile');
+    speakerProfile.textContent = speaker.profile;
+
+    const speakerSpeciality = document.createElement('p');
+    speakerSpeciality.classList.add('speaker-description', 'speaker-speciality');
+    speakerSpeciality.textContent = speaker.speciality;
+
+    // Append elements to construct the card structure
+    speakerAvatar.appendChild(avatarBg);
+    speakerAvatar.appendChild(avatarImage);
+
+    aboutSpeaker.appendChild(speakerName);
+    aboutSpeaker.appendChild(speakerProfile);
+    aboutSpeaker.appendChild(speakerSpeciality);
+
+    speakerCard.appendChild(speakerAvatar);
+    speakerCard.appendChild(aboutSpeaker);
+
+    speakersContainer.appendChild(speakerCard);
+  });
+}

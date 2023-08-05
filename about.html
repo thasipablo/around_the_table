@@ -16,6 +16,14 @@
   <body>
     <main class="about-page">
       <header class="header">
+        <div class="socials-wrapper">
+          <div class="socials container">
+            <div class="social"><img src="images/facebook.png" alt="facebook icon"></div>
+            <div class="social"><img src="images/twitter.png" alt="twitter icon"></div>
+            <div>English</div>
+            <div>Français</div>
+          </div>
+        </div>
         <nav class="nav-bar">
           <div class="container">
             <button class="hamburger-menu">
@@ -24,14 +32,14 @@
               <div class="bar"></div>
             </button>
             <div id="brand">
-              <img src="images/logo-lg.png" alt="" srcset="" />
+              <a href="/"><img src="images/logo-lg.png" alt="" srcset="" /></a>
             </div>
             <ul class="nav-bar-items">
-              <li class="nav-bar-item active"><a href="#">About</a></li>
-              <li class="nav-bar-item"><a href="#">Program</a></li>
-              <li class="nav-bar-item"><a href="#">Join</a></li>
-              <li class="nav-bar-item"><a href="#">Sponsor</a></li>
-              <li class="nav-bar-item"><a href="#">News</a></li>
+              <li class="nav-bar-item active"><a href="/about.html">About</a></li>
+              <li class="nav-bar-item"><a href="#program">Program</a></li>
+              <li class="nav-bar-item"><a href="#join">Join</a></li>
+              <li class="nav-bar-item"><a href="#sponsor">Sponsor</a></li>
+              <li class="nav-bar-item"><a href="#news"">News</a></li>
               <li class="nav-bar-item last"><a href="#">CC Campaign</a></li>
             </ul>
             <div class="mobile-menu-wrapper hidden">
@@ -39,11 +47,12 @@
                 <img src="images/menu-close.png" alt="close menu">
               </button>
               <ul class="mobile-menu">
-                <li class="nav-bar-item active"><a href="#">About</a></li>
-                <li class="nav-bar-item"><a href="#">Program</a></li>
-                <li class="nav-bar-item"><a href="#">Join</a></li>
-                <li class="nav-bar-item"><a href="#">Sponsor</a></li>
-                <li class="nav-bar-item"><a href="#">News</a></li>
+                <li class="nav-bar-item"><a href="/">Home</a></li>
+                <li class="nav-bar-item active"><a href="/about.html">About</a></li>
+                <li class="nav-bar-item"><a href="#program">Program</a></li>
+                <li class="nav-bar-item"><a href="#join">Join</a></li>
+                <li class="nav-bar-item"><a href="#sponsor">Sponsor</a></li>
+                <li class="nav-bar-item"><a href="#news"">News</a></li>
                 <li class="nav-bar-item last"><a href="#">CC Campaign</a></li>
               </ul>
             </div>
@@ -96,7 +105,7 @@
           </article>
         </div>
       </section>
-      <section class="section partner">
+      <section class="section partner partner-about" id="sponsor">
         <h2 class="section-title">
           Partner
           <span class="separator"></span>
@@ -105,26 +114,28 @@
           <img
             src="images/icons8_github_100px.png"
             alt=""
-            class="partner-item"
+            class="partner-item small"
           />
           <img
             src="images/icons8_gitlab_100px.png"
             alt=""
-            class="partner-item"
+            class="partner-item small"
           />
           <img
             src="images/icons8_google_100px.png"
             alt=""
-            class="partner-item"
+            class="partner-item small"
           />
           <img src="images/logo-airbnb.png" alt="" class="partner-item" />
         </div>
       </section>
-      <footer class="footer-about">
-        <p>
-          <img src="images/logo-lg-w.png" alt="winner logo" />
-        </p>
-        <p>&copy; Around The Table - All rights reserved</p>
+      <footer class="footer footer-about">
+        <div class="container">
+          <p>
+            <img src="images/logo-lg-w.png" alt="winner logo" />
+          </p>
+          <p>&copy; Around The Table - All rights reserved</p>
+        </div>
       </footer>
     </main>
   </body>

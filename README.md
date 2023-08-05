@@ -12,6 +12,7 @@
     - [Setup](#setup)
     - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -63,6 +64,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo](https://thasipablo.github.io/)
+- [Project Presentation](https://www.loom.com/share/9c8c3fb0e89142079f56ed2b4cced833?sid=b3cce94f-89f4-48b2-a73f-aba91c6400d0)
 
 <!-- GETTING STARTED -->
 
@@ -109,6 +111,14 @@ To run tests, run the following command:
 - LinkedIn: [LinkedIn](https://linkedin.com/in/thasipablo)
 
 <!-- CONTRIBUTING -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Contact form**
+- [ ] **Attendance Enrollement**
+- [ ] **Feedback Mail**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 

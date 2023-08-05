@@ -49,6 +49,10 @@ button {
   margin: 0 auto;
 }
 
+.socials-wrapper {
+  display: none;
+}
+
 .header {
   position: relative;
   z-index: 1;
@@ -70,7 +74,8 @@ button {
   padding: 2rem;
 }
 
-.nav-bar-items, #brand {
+.nav-bar-items,
+#brand {
   display: none;
 }
 
@@ -339,7 +344,7 @@ button {
   position: relative;
   z-index: 1;
   padding: 2.5rem 0;
-  background-color: var(--secondary-color);
+  background-color: #730909;
 }
 
 .forum-item .year {
@@ -379,7 +384,11 @@ button {
   width: auto;
 }
 
-.footer-about {
+.partner-item.small {
+  height: 40px;
+}
+
+.footer .container {
   padding: 2rem 1rem;
   text-align: left;
   display: flex;
@@ -425,6 +434,25 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .socials-wrapper {
+    display: block;
+    background-color: var(--primary-color);
+  }
+
+  .socials {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #fff;
+    gap: 0.5rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .socials img {
+    width: 18px;
+  }
+
   #brand {
     display: block;
   }
@@ -465,7 +493,7 @@ button {
     color: var(--secondary-color);
   }
 
-  .nav-bar-item.active {
+  .nav-bar-item.active a {
     color: var(--secondary-color);
   }
 
@@ -490,7 +518,8 @@ button {
     border: 2px solid #efefef;
   }
 
-  .program-title, .program-item p {
+  .program-title,
+  .program-item p {
     width: 100%;
     text-align: center;
   }
@@ -508,16 +537,20 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .partner {
-    display: none;
-  }
-
   .winner-logo {
     width: 325px;
+  }
+
+  .partner.partner-about {
+    display: none;
   }
 
   .footer-about {
     color: #fff;
     background-color: var(--primary-color);
+  }
+
+  .footer-home {
+    color: var(--primary-color);
   }
 }
